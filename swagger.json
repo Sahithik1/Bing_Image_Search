@@ -1,0 +1,78 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Bing Image Search API",
+        "description": "Testing the Bing Image Search API",
+        "license": {
+            "name": "Sahithi",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/images",
+    "tags": [
+        {
+            "name": "Images",
+            "description": "Images present in the internet"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/search": {
+            "get": {
+                "tags": [
+                    "Images"
+                ],
+                "description": "Type a query to search for the related images",
+                "parameters": [
+                  {
+                    "name": "q",
+                    "in": "query",
+                    "description": "search query",
+                    "schema": {
+                    }
+                  }
+                ],
+                "summary": "Get all matching images in the result",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/trending": {
+            "get": {
+                "tags": [
+                    "Images"
+                ],
+                "description": "Type a query for fetching the trending images",
+                "parameters": [
+                  {
+                    "name": "q",
+                    "in": "query",
+                    "description": "search query",
+                    "schema": {
+                    }
+                  }
+                ],
+                "summary": "Get all trending images matching the search query",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
