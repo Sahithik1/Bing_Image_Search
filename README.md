@@ -4,7 +4,7 @@
 Image Search is the Azure Media Services AI solution and part of the Azure Cognitive Services brand. Image search we can see trending images, wallpapers, gifs and ideas on Bing everyday.Image search provides ability to extract deep insights (with no need for data analysis or coding skills) using machine learning models based on multiple channels (voice, vocals, visual).
 
 ## Implementation of Image search using our local API:
-As part of the implementation of the video indexer, I have implemented 2 API requests
+As part of the implementation of the image search, I have implemented 2 API requests
 
 - GET API to get all matching search query images in the result
 - GET API to get all trending images in the result matching the search query
