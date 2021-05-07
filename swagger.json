@@ -9,7 +9,7 @@
             "url": "https://opensource.org/licenses/MIT"
         }
     },
-    "host": "pacific-retreat-31657.herokuapp.com",
+    "host": "azure-bing-image-search.herokuapp.com",
     "basePath": "/api/v1/images",
     "tags": [
         {
