@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
     res.json('hello')
 })
 // starting the app
-app.listen(3000, function () {
+app.listen(process.env.PORT || 5000, function () {
     console.log('app started and listening on port 3000');
 });
