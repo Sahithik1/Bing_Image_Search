@@ -1,9 +1,9 @@
 # Bing_Image_Search
 
-##Image Search:
+## Image Search:
 Image Search is the Azure Media Services AI solution and part of the Azure Cognitive Services brand. Image search we can see trending images, wallpapers, gifs and ideas on Bing everyday.Image search provides ability to extract deep insights (with no need for data analysis or coding skills) using machine learning models based on multiple channels (voice, vocals, visual).
 
-##Implementation of Image search using our local API:
+## Implementation of Image search using our local API:
 As part of the implementation of the video indexer, I have implemented 2 API requests
 
 - GET API to get all matching search query images in the result
@@ -11,7 +11,7 @@ As part of the implementation of the video indexer, I have implemented 2 API req
 
 Below are the steps provided to use the swagger implementation to retrieve the final result.
 
-##Steps to be followed for acquiring the result from the search API:
+## Steps to be followed for acquiring the result from the search API:
 Step 1:
 
 - Click the URL https://azure-bing-image-search.herokuapp.com/api-docs/#/ to open swagger
@@ -21,7 +21,7 @@ Step 2:
 
  - Related images will be displayed in the response body as below
  
-##Steps to be followed for acquiring the result from the trending API:
+## Steps to be followed for acquiring the result from the trending API:
 Step 1:
 
 - Click the URL https://azure-bing-image-search.herokuapp.com/api-docs/#/ to open swagger
