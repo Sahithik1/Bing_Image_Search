@@ -16,36 +16,36 @@ Step 1:
 
 - Click the URL https://azure-bing-image-search.herokuapp.com/api-docs/#/ to open swagger
 
-![](Images/1.png)
+![](Images/1.PNG)
 
 Step 2:
 - Please click on GET option under Images /search and then click on try-out and click on execute.
 
-![](Images/2.png)
+![](Images/2.PNG)
 
  - Related images will be displayed in the response body as below
  
- ![](Images/3.png)
- ![](Images/4.png)
+ ![](Images/3.PNG)
+ ![](Images/4.PNG)
  
 ## Steps to be followed for acquiring the result from the trending API:
 Step 1:
 
 - Click the URL https://azure-bing-image-search.herokuapp.com/api-docs/#/ to open swagger
 
-![](Images/1.png)
+![](Images/1.PNG)
 
 
 Step 2:
 - Please click on GET option under Images /trending and then click on try-out and click on execute.
 
-![](Images/5.png)
+![](Images/5.PNG)
 
 
  - Related trending images will be displayed in the response body as below
  
- ![](Images/6.png)
- ![](Images/7.png)
+ ![](Images/6.PNG)
+ ![](Images/7.PNG)
 
 
 
