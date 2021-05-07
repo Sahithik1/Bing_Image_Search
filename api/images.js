@@ -5,7 +5,8 @@ require('dotenv').config();
 // base url
 const baseUrl = "https://api.bing.microsoft.com";
 const basePath = "/v7.0/images";
-const subscriptionKey = process.env.SUBSCRIPTION_KEY;
+// const subscriptionKey = process.env.SUBSCRIPTION_KEY;
+const subscriptionKey = "66b3718610e34ca293a6194143e8b7d7";
 
 router.get('/search', function (req, res) {
     console.log(subscriptionKey);
