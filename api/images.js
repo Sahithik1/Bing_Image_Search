@@ -8,6 +8,7 @@ const basePath = "/v7.0/images";
 const subscriptionKey = process.env.SUBSCRIPTION_KEY;
 
 router.get('/search', function (req, res) {
+    console.log(subscriptionKey);
     let search = req.query.q;
     console.log(search);
     let url = `${baseUrl}` + `${basePath}` +"/search"+ `?q=${encodeURIComponent(search)}`;
